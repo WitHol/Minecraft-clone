@@ -14,10 +14,5 @@ public class BlockTypeInfo
     public string name;
     public bool transparent;
 
-    public Texture2D northFace;
-    public Texture2D southFace;
-    public Texture2D eastFace;
-    public Texture2D westFace;
-    public Texture2D topFace;
-    public Texture2D bottomFace;
+    public Vector2Int textureAtlasPos;
 }
